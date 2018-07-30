@@ -7,7 +7,7 @@ class ScheduleCourse extends Component {
             <label>{this.props.title}</label>
         </div>
 
-    )
+    );
   }
 }
 
