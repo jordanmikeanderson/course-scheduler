@@ -1,5 +1,7 @@
 .schedule {
-  grid-column: schedule-s/schedule-e;
+  display: grid;
+  grid-template-rows: 100px 1fr 1fr 1fr [progress-s] 76px [progress-e];
+  grid-row-gap: 22px;
 
   background: linear-gradient(120deg, #6F48CE 0%, #32CBE8 100%);
 }
